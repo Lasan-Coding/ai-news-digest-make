@@ -32,6 +32,7 @@ A full run uses about 40 Make credits. Claude usage is billed separately through
 ## Limitations
 
 - The ranking only sees titles and RSS summaries, so a vague title can be ranked too low.
+- No ranking by popularity. RSS feeds don't include view counts, so articles are ranked by relevance as judged by the model, not by views or shares.
 - "Max. 2 articles per source" is a prompt rule, and the model doesn't always follow it.
 - Weekends are thinner, because feeds publish less.
 
